@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottom_menu"
+        android:icon="@drawable/menu"
+        android:title="Kategoriler"/>
+
+    <item android:id="@+id/bottom_ara"
+        android:icon="@drawable/search"
+        android:title="Ara"/>
+
+    <item android:id="@+id/bottom_qr"
+        android:icon="@drawable/qr"
+        android:title="Qr Tara"/>
+
+</menu>

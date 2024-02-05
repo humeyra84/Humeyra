@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/it1"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_market"
+            android:icon="@drawable/market"
+            android:title="Market( Gıda-Temizlik vs.)"/>
+
+
+        <item android:id="@+id/nav_fashion"
+            android:icon="@drawable/fashion"
+            android:title="Marka-Giyim-Mağaza"/>
+
+
+
+        <item android:id="@+id/nav_appliances"
+            android:icon="@drawable/appliances1"
+            android:title="Elektrikli Ev Eşyaları"/>
+
+
+        <item android:id="@+id/nav_technologie"
+            android:icon="@drawable/technologie"
+            android:title="Teknolojik Ürünler"/>
+
+
+        <item android:id="@+id/nav_cosmetic"
+            android:icon="@drawable/cosmetic"
+            android:title="Kozmetik-Kişisel Bakım"/>
+
+
+        <item android:id="@+id/nav_health"
+            android:icon="@drawable/health"
+            android:title="Sağlık-İlaç"/>
+
+
+        <item android:id="@+id/nav_office"
+            android:icon="@drawable/office"
+            android:title="Oyuncak-Kırtasiye"/>
+
+
+        <item android:id="@+id/nav_pets"
+            android:icon="@drawable/pets"
+            android:title="PetShop"/>
+
+    </group>
+
+    <group
+
+        android:id="@+id/it2"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Çıkış"/>
+
+    </group>
+
+
+    <group
+        android:id="@+id/it3">
+
+        <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Ana Sayfa"/>
+
+    </group>
+
+
+    <group
+        
+        android:id="@+id/it4"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_like"
+            android:icon="@drawable/like"
+            android:title="Uygulamayı Beğen"/>
+
+
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Uygulamayı Paylaş"/>
+
+
+        <item android:id="@+id/nav_mail"
+            android:icon="@drawable/mail"
+            android:title="Bize Ulaşın"/>
+
+    </group>
+
+</menu>

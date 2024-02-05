@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashActivity">
+
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.example.humeyra.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.humeyra.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/NVAppliancesFragment"
+        android:name="com.example.humeyra.NVAppliancesFragment"
+        android:label="fragment_n_v_appliances"
+        tools:layout="@layout/fragment_n_v_appliances" />
+    <fragment
+        android:id="@+id/NVCosmeticFragment"
+        android:name="com.example.humeyra.NVCosmeticFragment"
+        android:label="fragment_n_v_cosmetic"
+        tools:layout="@layout/fragment_n_v_cosmetic" />
+    <fragment
+        android:id="@+id/NVHealthFragment"
+        android:name="com.example.humeyra.NVHealthFragment"
+        android:label="fragment_n_v_health"
+        tools:layout="@layout/fragment_n_v_health" />
+    <fragment
+        android:id="@+id/NVFashionFragment"
+        android:name="com.example.humeyra.NVFashionFragment"
+        android:label="fragment_n_v_fashion"
+        tools:layout="@layout/fragment_n_v_fashion" />
+    <fragment
+        android:id="@+id/NVLikeFragment"
+        android:name="com.example.humeyra.NVLikeFragment"
+        android:label="fragment_n_v_like"
+        tools:layout="@layout/fragment_n_v_like" />
+    <fragment
+        android:id="@+id/NVLogoutFragment"
+        android:name="com.example.humeyra.NVLogoutFragment"
+        android:label="fragment_n_v_logout"
+        tools:layout="@layout/fragment_n_v_logout" />
+    <fragment
+        android:id="@+id/NVMailFragment"
+        android:name="com.example.humeyra.NVMailFragment"
+        android:label="fragment_n_v_mail"
+        tools:layout="@layout/fragment_n_v_mail" />
+    <fragment
+        android:id="@+id/NVMarketFragment"
+        android:name="com.example.humeyra.NVMarketFragment"
+        android:label="fragment_n_v_market"
+        tools:layout="@layout/fragment_n_v_market" />
+    <fragment
+        android:id="@+id/NVOfficeFragment"
+        android:name="com.example.humeyra.NVOfficeFragment"
+        android:label="fragment_n_v_office"
+        tools:layout="@layout/fragment_n_v_office" />
+    <fragment
+        android:id="@+id/NVPetShopFragment"
+        android:name="com.example.humeyra.NVPetShopFragment"
+        android:label="fragment_n_v_pet_shop"
+        tools:layout="@layout/fragment_n_v_pet_shop" />
+    <fragment
+        android:id="@+id/NVShareFragment"
+        android:name="com.example.humeyra.NVShareFragment"
+        android:label="fragment_n_v_share"
+        tools:layout="@layout/fragment_n_v_share" />
+    <fragment
+        android:id="@+id/BTQrFragment"
+        android:name="com.example.humeyra.BTQrFragment"
+        android:label="fragment_b_t_qr"
+        tools:layout="@layout/fragment_b_t_qr" />
+    <fragment
+        android:id="@+id/BTSearchFragment"
+        android:name="com.example.humeyra.BTSearchFragment"
+        android:label="fragment_b_t_search"
+        tools:layout="@layout/fragment_b_t_search" />
+    <fragment
+        android:id="@+id/NVTechnologieFragment"
+        android:name="com.example.humeyra.NVTechnologieFragment"
+        android:label="fragment_n_v_technologie"
+        tools:layout="@layout/fragment_n_v_technologie" />
+    <fragment
+        android:id="@+id/NVHomeFragment"
+        android:name="com.example.humeyra.NVHomeFragment"
+        android:label="fragment_n_v_home"
+        tools:layout="@layout/fragment_n_v_home" />
+    <fragment
+        android:id="@+id/BTMenuFragment"
+        android:name="com.example.humeyra.BTMenuFragment"
+        android:label="fragment_b_t_menu"
+        tools:layout="@layout/fragment_b_t_menu" />
+    <activity
+        android:id="@+id/marketDetailFragment2"
+        android:name="com.example.humeyra.MarketDetailFragment"
+        android:label="fragment_market_detail"
+        tools:layout="@layout/fragment_market_detail" />
+</navigation>
